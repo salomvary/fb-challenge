@@ -1,0 +1,44 @@
+body {
+  font: 13px sans-serif;
+  color: gray;
+  padding: 20px;
+}
+
+.calendar {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.calendar-axis {
+  width: 70px;
+  margin-right: 5px;
+  top: -0.5em;
+  position: relative;
+}
+
+.calendar-axis-time {
+  position: absolute;
+  right: 0;
+}
+
+.calendar-day {
+  padding: 0 10px;
+  background: whiteSmoke;
+  margin-left: 12px;
+}
+
+.calendar-events {
+  position: relative;
+}
+
+.calendar-event {
+  box-sizing: border-box;
+  position: absolute;
+  background: white;
+  border: 1px solid lightGray;
+  border-left: 5px solid steelBlue;
+}
